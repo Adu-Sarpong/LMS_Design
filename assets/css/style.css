@@ -11098,14 +11098,14 @@ textarea:focus {
 	margin-bottom: 30px;
 }
 .btn-start {
-	background: #FF875A;
+	background: #04496d;
 	border-radius: 5px;
 	padding: 12px 15px;
     font-weight: 700;
 	color: #FFF;
 }
 .btn-start:hover {
-	background: #f57b4d;
+	background: #044980;
 	color: #FFF;
 }
 .login-wrapper .loginbox .dont-have {
@@ -11856,12 +11856,12 @@ input[type=password]::-ms-clear
     border: 1px solid #e9ecef;
 }
 .price-box h4 {
-	color: #FF5364;
+	color: #1663BF;
 	margin-bottom: 16px;
 	font-weight: 700;
 }
 .price-box p {
-	color: #685F78;
+	color: #1663BF;
 	font-size: 14px;
 	margin-bottom: 20px;
 }
@@ -11877,7 +11877,7 @@ input[type=password]::-ms-clear
 }
 .price-box h5 {
 	font-size: 18px;
-	color: #0B0B0B;
+	color: #1663BF;
 	margin-bottom: 30px;
 }
 .btn-free {
@@ -11886,7 +11886,7 @@ input[type=password]::-ms-clear
 	background: #FFFFFF;
 	border: 1px solid #F66962;
 	border-radius: 5px;
-	color: #F66962;
+	color: #1663BF;
 	transition: 0.7s;
 }
 .price-box ul {
@@ -11895,7 +11895,7 @@ input[type=password]::-ms-clear
 }
 .price-box ul li {
 	font-size: 14px;
-	color: #685F78;
+	color: #1663BF;
 	margin-bottom: 10px;
 }
 .price-box:hover .btn-free {
@@ -12048,7 +12048,7 @@ input[type=password]::-ms-clear
 	padding: 6px 12px;
 }
 .price-amt h4 {
-	color: #F66962;
+	color: #1663BF;
 	font-weight: 700;
 	font-family: 'Poppins', sans-serif;
 	margin-bottom: 0;
@@ -12079,10 +12079,14 @@ input[type=password]::-ms-clear
 	16. Course Details
 -----------------------*/
 
+.primary {
+    color: #1663BF;
+}
+
 .subs-title {
 	font-size: 18px;
 	font-weight: 700;
-	color: #392C7D;
+	color: #1663BF;
 	margin-bottom: 20px;
 }
 .course-sec p {
@@ -12180,15 +12184,15 @@ input[type=password]::-ms-clear
 }
 .btn-reply {
 	background: #FFFFFF;
-    border: 1px solid #392C7D;
+    border: 1px solid #04496d;
     border-radius: 50px;
     padding: 6px 22px;
     font-weight: 500;
     font-size: 14px;
-    color: #392C7D;
+    color: #04496d;
 }
 .btn-reply:hover {
-	background: #392C7D;
+	background: #04496d;
 	color: #FFF;
 }
 .comment-sec .form-control {
@@ -12196,17 +12200,16 @@ input[type=password]::-ms-clear
 }
 .submit-btn {
 	font-weight: 500;
-	color: #392C7D;
+	color: rgb(4,73,109);
 	border-radius: 50px;
 	padding: 9px 15px;
 	min-width: 150px;
-	border: 4px solid transparent;
+	border: 2px solid rgb(4,73,109);
 	background-origin: border-box;
-    background-clip: padding-box, border-box;
-    background-image: linear-gradient(white, white), linear-gradient(to right, rgba(180, 167, 245, 1), rgba(57, 44, 125, 1));
+   
 }
 .submit-btn:hover {
-	background: #392C7D;
+	background: rgb(4,73,109);
 	color: #FFF;
 }
 .cou-title a {
@@ -12915,7 +12918,7 @@ input[type=password]::-ms-clear
 .edu-name span {
 	width: 40px;
 	height: 40px;
-	background: #FF5364;
+	background: #04496d;
 	border-radius: 50%;
 	color: #FFFFFF;
 	font-size: 14px;
@@ -13035,7 +13038,7 @@ input[type=password]::-ms-clear
 	color: #ffffff;
 }
 .profile-info-social li a:hover {
-	color: #F66962;
+	color: #1663BF;
 }
 .profile-info-social li:not(:last-child) {
 	margin-right: 14px;
@@ -13049,10 +13052,10 @@ input[type=password]::-ms-clear
 }
 .sidebar-tag-labels ul li a	{
 	display: block;
-	background: rgba(255, 222, 218, 0.36);
+	background: #1663BF;
 	padding: 5px 10px;
 	border-radius: 5px;
-	color: #FF875A;
+	color: #fff;
 }
 .sidebar-tag-labels ul li a:hover {
 	background: rgba(255, 222, 218, 0.66);
@@ -14563,12 +14566,11 @@ input[type=password]::-ms-clear
 	height: 40px;
 }
 .view-icons a:hover {
-	border-color: #FF6575;
-	color: #FF6575;
+	border-color: rgb(4,73,109);
+	color: rgb(4,73,109);
 }
 .view-icons a.active {
-    background-color: #FF6575;
-	border-color: #FF6575;
+    background-color: rgb(4,73,109);
 	color: #fff;
 }
 .show-result h4 {
@@ -14616,7 +14618,7 @@ input[type=password]::-ms-clear
 	font-weight: 900;
 }
 .course-design .price .free-color {
-	color: #159F46;
+	color: #1663BF;
 }
 .course-design .price {
     min-width: auto;
@@ -14625,7 +14627,7 @@ input[type=password]::-ms-clear
 }
 .lms-page li .page-link {
 	margin-right: 15px;
-	border: 1px solid #FFDEDA;
+	border: 1px solid rgb(4,73,109);
 	border-radius: 5px;
 	width: 40px;
 	height: 40px;
@@ -14648,12 +14650,12 @@ input[type=password]::-ms-clear
 	margin-bottom: 20px;
 }
 .lms-page li .page-link:hover { 
-	background-color: #FF5364;
+	background-color: rgb(4,73,109);
 	color: #fff;
 }
 .lms-page .page-item.active .page-link {
-    background-color: #FF5364;
-    border-color: #FF5364;
+    background-color: rgb(4,73,109);
+    border-color: rgb(4,73,109);
 }
 .page-item:first-child .page-link {
     border-top-left-radius: 5px;
@@ -16313,8 +16315,8 @@ input[type=password]::-ms-clear
 	border-top: 1px solid #e9ecef;
 }
 .check-outs .btn-primary {
-	background: #FF5364;
-	border: 1px solid #FF5364;
+	background: #1d9cfd;
+	border: 1px solid #1d9cfd;
 	width: 100%;
 	color: #fff;
 	padding: 12px 15px;
@@ -16322,21 +16324,21 @@ input[type=password]::-ms-clear
 	font-weight: 700;
 }
 .check-outs .btn-primary:hover {
-	background: #e14151;
-	border: 1px solid #e14151;
+	background: #1d9cfd;
+	border: 1px solid #1d9cfd;
 }
 .condinue-shop .btn-primary {
 	background: #fff;
-	border: 1px solid #FF5364;
+	border: 1px solid #1d9cfd;
 	width: 100%;
-	color: #FF5364;
+	color: #1d9cfd;
 	padding: 12px 15px;
 	font-size: 16px;
 	font-weight: 700;
 }
 .condinue-shop .btn-primary:hover {
-	background: #FF5364;
-	border: 1px solid #FF5364;
+	background: #1d9cfd;
+	border: 1px solid #1d9cfd;
 	color: #fff;
 }
 .cart-subtotal p {
@@ -16403,8 +16405,8 @@ input[type=password]::-ms-clear
 	margin-top: 40px;
 }
 .payment-btn .btn-primary {
-	background: #FF5364;
-	border: 1px solid #FF5364;
+	background: #1d9cfd;
+	border: 1px solid #1d9cfd;
 	color: #fff;
 	padding: 12px 15px;
 	font-size: 16px;
@@ -16412,14 +16414,14 @@ input[type=password]::-ms-clear
 	min-width: 600px;
 }
 .payment-btn .btn-primary:hover {
-	background: #e14151;
-	border: 1px solid #e14151;
+	background: #1d9cfd;
+	border: 1px solid #1d9cce;
 }
 .select-plan-group .student-widget-group {
 	padding: 20px;
 }
 .plan-header {
-	background: #392C7D;
+	background: #04496d;
 }
 .plan-header h4 {
 	font-size: 24px;
@@ -16537,16 +16539,16 @@ input[type=password]::-ms-clear
 .plan-change .btn-primary {
 	font-size: 16px;
 	font-weight: 700;
-	color: #392C7D;
+	color: #04496d;
 	background:#fff;
-	border: 1px solid #392C7D;
+	border: 1px solid #04496d;
 	border-radius: 0px;
 	width: 100%;
 	padding: 12px 15px;
 }
 .plan-change .btn-primary:hover {
-	background: #392C7D;
-	border: 1px solid #392C7D;
+	background: #04496d;
+	border: 1px solid #04496d;
 	color: #fff;
 }
 
@@ -17349,7 +17351,7 @@ input[type=password]::-ms-clear
 .add-course-inner-header h4 {
     font-weight: 500;
     font-size: 24px;
-    color: #F66962;
+    color: rgb(4,73,109);
     margin-bottom: 0;
 }
 .add-course-form {
@@ -17445,8 +17447,8 @@ input[type=password]::-ms-clear
 }
 .relative-file-upload {
     color: #fff;
-    background: #F66962;
-    border: 1px solid #F66962;
+    background: rgb(4,73,109);
+    border: 1px solid rgb(4,73,109);
     border-radius: 5px;
     padding: 8px 18px;
     font-size: 14px;
@@ -17489,11 +17491,11 @@ input[type=password]::-ms-clear
     color: #a1a2a0;
 }
 .add-video-box {
-    background: rgba(255, 222, 218, 0.71);
+    background: rgb( 4, 73, 109, 0.4);
 }
 .add-video-box a {
     font-size: 40px;
-    color: #FF5364;
+    color: rgb(4,73,109);
 }
 .add-course-section {
     padding: 0 40px 40px;
@@ -17990,7 +17992,7 @@ input[type=password]::-ms-clear
 	.course-price h3 {
 		font-weight: 700;
 		font-size: 16px;
-		color: #21B477;
+		color: #1663BF;
         margin-bottom: 0;
 	}
 	.new-course-bg .rating {
@@ -18184,7 +18186,7 @@ input[type=password]::-ms-clear
     .more-information li {
         margin-left: 20px;
     }
-}
+
 
 @media (min-width: 1200px) {
 	.main-nav > li {
@@ -18524,7 +18526,7 @@ input[type=password]::-ms-clear
     .banner-content-five .form-inner-five {
         padding: 5px;
     }
-}
+
 
 @media (max-width: 1199.98px) {
 	.header-nav {
@@ -24576,3 +24578,7 @@ input[type=password]::-ms-clear
     }
 }
 
+.back-primary {
+    background: rgb(4,73,109);
+    color: white;
+}
