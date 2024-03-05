@@ -16739,8 +16739,8 @@ input[type=password]::-ms-clear
 }
 .profile-share .btn-success {
 	background: transparent;
-	color: #159F46;
-	border: 1px solid #159F46;
+	color: #04496D;
+	border: 1px solid #04496D;
 	margin-right: 10px;
 	border-radius: 0;
 	padding: 7px 22px;
@@ -16748,8 +16748,8 @@ input[type=password]::-ms-clear
 	border-radius: 5px;
 }
 .profile-share .btn-success:hover {
-	background: #159F46;
-	color: #fff;
+	background: yellow;
+	color: '#0000';
 	border: 1px solid #159F46;
 }
 .profile-share .btn-danger {
@@ -16814,7 +16814,7 @@ input[type=password]::-ms-clear
 .update-profile .btn-primary:hover {
 	background-color: yellow;
     /* border: 1px solid #fc7f50; */
-	color: black;
+	color: #000000;
 }
 .border-line {
     border-bottom: 1px solid rgb(199 199 199 / 25%);
@@ -18173,6 +18173,7 @@ input[type=password]::-ms-clear
         display: none;
     }
     .footer-five-left {
+        background-color: #071136;
         display: none;
     }
     .footer-five-right {
@@ -18184,7 +18185,7 @@ input[type=password]::-ms-clear
     .more-information li {
         margin-left: 20px;
     }
-}
+
 
 @media (min-width: 1200px) {
 	.main-nav > li {
