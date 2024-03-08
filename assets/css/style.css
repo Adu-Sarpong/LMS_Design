@@ -12180,16 +12180,16 @@ input[type=password]::-ms-clear
 }
 .btn-reply {
 	background: #FFFFFF;
-    border: 1px solid #392C7D;
+    border: 1px solid #04496D;
     border-radius: 50px;
     padding: 6px 22px;
     font-weight: 500;
     font-size: 14px;
-    color: #392C7D;
+    color: #04496D;
 }
 .btn-reply:hover {
-	background: #392C7D;
-	color: #FFF;
+	background:yellow;
+	color: black;
 }
 .comment-sec .form-control {
 	background: rgba(229, 229, 229, 0.42);
@@ -17418,15 +17418,15 @@ input[type=password]::-ms-clear
     -ms-flex-pack: center;
 }
 .widget-btn .btn-info-light {
-    color: #fff;
-    background: #1D9CFD;
-    border: 1px solid #1D9CFD;
+    color: #04496D;
+    background: #fff;
+    border: 1px solid #04496D;
     border-radius: 5px;
 }
 .widget-btn .btn-info-light:hover {
-    color: #1D9CFD;
-    background: #fff;
-    border: 1px solid #1D9CFD;
+    color: #ffffff;
+    background: #04496D;
+   
 }
 .relative-form {
     position: relative;
