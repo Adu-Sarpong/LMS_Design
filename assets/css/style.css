@@ -5598,13 +5598,15 @@ html.menu-opened body {
     -webkit-transition: all 0.4s ease;
 }
 .trending-three-item:hover {
-	box-shadow: 0px 24px 20px rgb(204 204 204 / 25%);
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    -webkit-transition: all 0.4s ease;
+    box-shadow: 0px 24px 20px rgb(204 204 204 / 25%);
+    transition: all 0.4s ease; /* Standard transition property */
+    -moz-transition: all 0.4s ease; /* Mozilla Firefox */
+    -o-transition: all 0.4s ease; /* Opera */
+    -ms-transition: all 0.4s ease; /* Microsoft Edge */
+    -webkit-transition: all 0.4s ease; /* WebKit-based browsers */
     border-radius: 10px;
 }
+
 .trending-bg-two {
     background: #69FFDB;
     border: 1px solid #F4F4F4;
@@ -7996,8 +7998,9 @@ textarea:focus {
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
-    border-radius: 30px;
+    border-radius: 30px;   
 }
+
 .course-section-five {
     background: #ffffff;
     padding: 60px 0 60px;
@@ -8571,6 +8574,7 @@ textarea:focus {
     width: 230px;
     -webkit-transform: translateZ(0);
     -webkit-font-smoothing: antialiased;
+    
 }
 .developer-profile-five .profile-five-ovelay {
     background: rgba(255, 255, 255, 0.85);
@@ -9265,6 +9269,7 @@ textarea:focus {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
+    transition: all 0.4s ease;
 }
 .sign-btn-six:hover {
     background: #421E76;
@@ -9275,6 +9280,7 @@ textarea:focus {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
+    transition: all 0.4s ease;
 }
 .login-btn-six {
     background: #FFFFFF;
@@ -9288,6 +9294,7 @@ textarea:focus {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
+    transition: all 0.4s ease;
 }
 .login-btn-six:hover {
     background: #421E76;
@@ -9300,6 +9307,7 @@ textarea:focus {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
+    transition: all 0.4s ease;
 }   
 
  /*-------------------
@@ -11755,8 +11763,8 @@ input[type=password]::-ms-clear
 	margin-bottom: 25px;
 	border: 1px solid #e9ecef;
 }
-.plan-box:hover {
-}
+/* .plan-box:hover {
+} */
 .plan-box h4 {
 	color: #04496d;
 	margin-bottom: 16px;
@@ -15952,8 +15960,8 @@ input[type=password]::-ms-clear
     border: none;
     color: #9f9f9f;
 }
-.chat-cont-right .chat-footer .input-group .btn.msg-send-btn {
-}
+/* .chat-cont-right .chat-footer .input-group .btn.msg-send-btn {
+} */
 .msg-typing {
 	width: auto;
 	height: 24px;
@@ -24582,3 +24590,7 @@ input[type=password]::-ms-clear
     }
 }
 
+#bg-video {
+    z-index: -1;
+    position: absolute;
+}
