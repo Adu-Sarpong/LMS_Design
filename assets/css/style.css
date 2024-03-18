@@ -24590,4 +24590,5 @@ input[type=password]::-ms-clear
 #bg-video {
     z-index: -1;
     position: absolute;
+    
 }
