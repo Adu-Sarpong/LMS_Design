@@ -10886,7 +10886,7 @@ textarea:focus {
 -----------------------*/
 
 .login-bg {
-	background-image: url('../img/login-bg.png');
+	background-color: #D5E9F4;
 	background-size: cover;
 	top: 0;
     left: 0;	
@@ -11019,7 +11019,7 @@ textarea:focus {
     position: relative;
 }
 .google-bg {
-	background: rgba(255, 222, 218, 0.31);
+	background: #D5E9F4;
 	padding: 50px;
 	width: 100%;
 }
@@ -11103,7 +11103,7 @@ textarea:focus {
 }
 .btn-start {
 	background: #04496d;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 12px 15px;
     font-weight: 700;
 	color: #FFF;
@@ -12644,7 +12644,7 @@ input[type=password]::-ms-clear
 .page-banner {
 	padding: 88px 0;
 	text-align: center;
-	background: url('../img/ban-bg.png') #1565C0;
+	background: url('../img/ban-bg.png')#04496D;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -13058,13 +13058,15 @@ input[type=password]::-ms-clear
 }
 .sidebar-tag-labels ul li a	{
 	display: block;
-	background: #1663BF;
+	background: #04496D;
 	padding: 5px 10px;
 	border-radius: 5px;
 	color: #fff;
 }
 .sidebar-tag-labels ul li a:hover {
-	background: rgba(255, 222, 218, 0.66);
+	background: #FFFFFF;
+    color: #04496D;
+    border: 2px solid #04496D;;
 }
 .rating-grp {
 	display: -webkit-box;
@@ -13562,7 +13564,7 @@ input[type=password]::-ms-clear
 .filter-grp h3 {
 	font-size: 24px;
 	font-weight: 600;
-	color: #392C7D;
+	color: #04496D;
 	margin:	0px;
 }
 .filter-grp select {
@@ -14277,7 +14279,7 @@ input[type=password]::-ms-clear
 	font-weight: 600;
 }
 .student-ticket-view a {
-	color: #392C7D;
+	color: #04496D;
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: underline;
@@ -16254,6 +16256,7 @@ input[type=password]::-ms-clear
 .add-compose .btn-primary:hover {
 	background-color: #04496D;
     border: 1px solid #04496D;
+    color: #FFFFFF;
 }
 
 /*-----------------
@@ -16827,8 +16830,8 @@ input[type=password]::-ms-clear
 .border-line {
     border-bottom: 1px solid rgb(199 199 199 / 25%);
 }
-.personal-info-head p span h4 {
-	color: #04496d;
+.personal-info-head h4 {
+	color: #04496D;
 }
 .save-social .btn-primary {
 	min-width: 237px;
