@@ -1,8 +1,4 @@
-/*
-Author       : Dreamguys
-Template Name: Dreams LMS - Bootstrap Template
-Version      : 1.0
-*/
+
 
 /*============================
  [Table of CSS]
@@ -40,7 +36,6 @@ Version      : 1.0
 31. Setting - Support View Tickets
 32. Setting - Instructor My Courses
 33. Instructor - Dashboard
-34. ck - Editer
 35. Student Dashboard
 36. Deposit Instructor
 37. Deposit Payment Method
@@ -956,7 +951,7 @@ button.bg-danger:hover {
 .header-navbar-rht > li > a {
 	font-size: 16px;
 	font-weight: 500;
-	color: #26292c;
+	color: #04496D;
 }
 .header-navbar-rht li .dropdown-menu {
 	border: 0;
@@ -1924,8 +1919,8 @@ html.menu-opened body {
 	margin-left: auto;
 }
 .all-category .btn-primary {
-	color: #392C7D;
-	border: 3px solid #B4A7F5;
+	color: #04496D;
+	border: 3px solid #04496D;
 	backdrop-filter: blur(151.39px);
 	border-radius: 46.9159px;
 	background: transparent;
@@ -1935,8 +1930,8 @@ html.menu-opened body {
 	font-weight: 500;
 }
 .all-category .btn-primary:hover {
-	background-color: #917cf6;
-    border-color: #917cf6;
+	background-color: #04496D;
+    border-color: #04496D;
     color: #fff;
 }
 .rating {
@@ -10893,7 +10888,7 @@ textarea:focus {
 -----------------------*/
 
 .login-bg {
-	background-image: url('../img/login-bg.png');
+	background-color: #D5E9F4;
 	background-size: cover;
 	top: 0;
     left: 0;	
@@ -11026,7 +11021,7 @@ textarea:focus {
     position: relative;
 }
 .google-bg {
-	background: rgba(255, 222, 218, 0.31);
+	background: #D5E9F4;
 	padding: 50px;
 	width: 100%;
 }
@@ -11110,7 +11105,7 @@ textarea:focus {
 }
 .btn-start {
 	background: #04496d;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 12px 15px;
     font-weight: 700;
 	color: #FFF;
@@ -12098,7 +12093,7 @@ input[type=password]::-ms-clear
 .subs-title {
 	font-size: 18px;
 	font-weight: 700;
-	color: #1663BF;
+	color: #04496D;
 	margin-bottom: 20px;
 }
 .course-sec p {
@@ -12196,32 +12191,33 @@ input[type=password]::-ms-clear
 }
 .btn-reply {
 	background: #FFFFFF;
-    border: 1px solid #04496d;
+    border: 1px solid #04496D;
     border-radius: 50px;
     padding: 6px 22px;
     font-weight: 500;
     font-size: 14px;
-    color: #04496d;
+    color: #04496D;
 }
 .btn-reply:hover {
-	background: #04496d;
-	color: #FFF;
+	background:yellow;
+	color: black;
 }
 .comment-sec .form-control {
 	background: rgba(229, 229, 229, 0.42);
 }
 .submit-btn {
 	font-weight: 500;
-	color: rgb(4,73,109);
+	color: #04496D;
 	border-radius: 50px;
 	padding: 9px 15px;
 	min-width: 150px;
 	border: 2px solid rgb(4,73,109);
 	background-origin: border-box;
-   
+    background-clip: padding-box, border-box;
+    border-color: #04496D;
 }
 .submit-btn:hover {
-	background: rgb(4,73,109);
+	background: #04496D;
 	color: #FFF;
 }
 .cou-title a {
@@ -12650,7 +12646,7 @@ input[type=password]::-ms-clear
 .page-banner {
 	padding: 88px 0;
 	text-align: center;
-	background: url('../img/ban-bg.png') #1565C0;
+	background: url('../img/ban-bg.png')#04496D;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -13064,13 +13060,15 @@ input[type=password]::-ms-clear
 }
 .sidebar-tag-labels ul li a	{
 	display: block;
-	background: #1663BF;
+	background: #04496D;
 	padding: 5px 10px;
 	border-radius: 5px;
 	color: #fff;
 }
 .sidebar-tag-labels ul li a:hover {
-	background: rgba(255, 222, 218, 0.66);
+	background: #FFFFFF;
+    color: #04496D;
+    border: 2px solid #04496D;;
 }
 .rating-grp {
 	display: -webkit-box;
@@ -13568,7 +13566,7 @@ input[type=password]::-ms-clear
 .filter-grp h3 {
 	font-size: 24px;
 	font-weight: 600;
-	color: #392C7D;
+	color: #04496D;
 	margin:	0px;
 }
 .filter-grp select {
@@ -14283,7 +14281,7 @@ input[type=password]::-ms-clear
 	font-weight: 600;
 }
 .student-ticket-view a {
-	color: #392C7D;
+	color: #04496D;
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: underline;
@@ -15446,17 +15444,18 @@ input[type=password]::-ms-clear
     background-color: #159f46 !important;
 }
 .start-leason .btn-primary {
-	background: #392C7D;
-	border: 1px solid #C4C4C4;
+	background: #04496D;
+	border: 2px solid #C4C4C4;
 	border-radius: 5px;
 	width: 100%;
 	font-size: 14px;
 	font-weight: 600;
 	padding: 13px 15px;
 }
-.course-design .product:hover .start-leason .btn-primary {
+/* .course-design  .start-leason .btn-primary {
     color: #fff;
-}
+    background: #04496D;
+} */
 .edit-rate a {
 	font-size: 14px;
 }
@@ -15465,7 +15464,7 @@ input[type=password]::-ms-clear
 	margin: 20px 0px;
 }
 .start-leason .btn-primary:hover {
-    background: #3b2999;
+    background: white;
     border: 1px solid #3b2999;
 }
 .student-widget {
@@ -16223,7 +16222,7 @@ input[type=password]::-ms-clear
     width: 100%;
 }
 .bgg-yellow {
-	background: #FF7A03;
+	background: #04496D;
 	color: #fff;
     border-radius: 50%;
     width: 17px;
@@ -16249,17 +16248,17 @@ input[type=password]::-ms-clear
 	margin-right: 10px;
 }
 .add-compose .btn-primary {
-	color: #F66962;
+	color: #04496D;
 	font-size: 14px;
 	background: #FFFFFF;
-	border: 1px solid #F66962;
+	border: 1px solid #04496D;
 	border-radius: 50px;
 	padding: 13px 41px;
 }
 .add-compose .btn-primary:hover {
-	background-color: #FF875A;
-    border: 1px solid #FF875A;
-	color: #fff;
+	background-color: #04496D;
+    border: 1px solid #04496D;
+    color: #FFFFFF;
 }
 
 /*-----------------
@@ -16433,7 +16432,7 @@ input[type=password]::-ms-clear
 	padding: 20px;
 }
 .plan-header {
-	background: #04496d;
+	background: #04496D;
 }
 .plan-header h4 {
 	font-size: 24px;
@@ -16449,7 +16448,7 @@ input[type=password]::-ms-clear
 }
 .basic-plan h2 {
 	font-size: 36px;
-	color: #392C7D;
+	color: #04496D;
 	font-weight:700;
 	margin-bottom: 0;
 }
@@ -16551,7 +16550,7 @@ input[type=password]::-ms-clear
 .plan-change .btn-primary {
 	font-size: 16px;
 	font-weight: 700;
-	color: #04496d;
+	color: #04496D;
 	background:#fff;
 	border: 1px solid #04496d;
 	border-radius: 0px;
@@ -16559,8 +16558,8 @@ input[type=password]::-ms-clear
 	padding: 12px 15px;
 }
 .plan-change .btn-primary:hover {
-	background: #04496d;
-	border: 1px solid #04496d;
+	background:#04496D;
+	border: 1px solid #04496D;
 	color: #fff;
 }
 
@@ -16833,8 +16832,8 @@ input[type=password]::-ms-clear
 .border-line {
     border-bottom: 1px solid rgb(199 199 199 / 25%);
 }
-.personal-info-head p span h4 {
-	color: #04496d;
+.personal-info-head h4 {
+	color: #04496D;
 }
 .save-social .btn-primary {
 	min-width: 237px;
@@ -17432,15 +17431,15 @@ input[type=password]::-ms-clear
     -ms-flex-pack: center;
 }
 .widget-btn .btn-info-light {
-    color: #fff;
-    background: #1D9CFD;
-    border: 1px solid #1D9CFD;
+    color: #04496D;
+    background: #fff;
+    border: 1px solid #04496D;
     border-radius: 5px;
 }
 .widget-btn .btn-info-light:hover {
-    color: #1D9CFD;
-    background: #fff;
-    border: 1px solid #1D9CFD;
+    color: #ffffff;
+    background: #04496D;
+   
 }
 .relative-form {
     position: relative;
@@ -24595,4 +24594,5 @@ input[type=password]::-ms-clear
 #bg-video {
     z-index: -1;
     position: absolute;
+    
 }
