@@ -11197,6 +11197,26 @@ textarea:focus {
 /*-----------------
 	11. Register Step
 -----------------------*/
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select {
+    padding-right: 30px; /* Adjust according to the size of your icon */
+}
+
+.select-wrapper i {
+    position: absolute;
+    top: calc(50% - 5px); /* Adjust according to the size of your icon */
+    right: 10px; /* Adjust according to the alignment you want */
+    pointer-events: none;
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.select-wrapper.open i {
+    transform: rotate(180deg); /* Rotate the icon when dropdown is open */
+}
+
 
 .register-step .login-banner img {
     max-width: 350px;
@@ -11622,7 +11642,7 @@ input[type=password]::-ms-clear
 	padding-bottom:12px;
 }
 .breadcrumb-bar {
-    background: #FFF;
+    background: #B8DFF2;
     padding: 25px 0;
 }
 .breadcrumb-list {
@@ -11733,18 +11753,21 @@ input[type=password]::-ms-clear
 
 .title-sec {
 	margin-bottom: 30px;
+    
 }
 .title-sec h5 {
 	font-weight: 700;
 	font-size: 18px;
 	color: #F66962;
 	margin-bottom: 18px;
+    
 }
 .title-sec h2 {
 	font-weight: 700;
 	font-size: 36px;
 	color: #0B0B0B;
 	margin-bottom: 18px;
+    
 }
 .title-sec p {
 	font-weight: 500;

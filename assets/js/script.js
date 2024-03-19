@@ -1099,3 +1099,14 @@ Version      : 1.0
 	}
 	
 })(jQuery);
+
+//register
+document.addEventListener("DOMContentLoaded", function () {
+	var selectWrapper = document.querySelector('.select-wrapper');
+	var select = selectWrapper.querySelector('select');
+
+	selectWrapper.addEventListener('click', function () {
+		select.blur(); // This line ensures the select element loses focus after clicking
+		this.classList.toggle('open');
+	});
+});
